@@ -1,0 +1,6 @@
+framework module PanDK {
+  umbrella header "PanDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

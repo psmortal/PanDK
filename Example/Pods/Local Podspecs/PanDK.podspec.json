@@ -1,0 +1,36 @@
+{
+  "name": "PanDK",
+  "version": "0.1.0",
+  "summary": "DevelopKit by psmortal",
+  "description": "som little utils by psmortal",
+  "homepage": "https://github.com/psmortal/PanDK",
+  "license": "MIT",
+  "authors": {
+    "psmortal": "pansifan0525@163.com"
+  },
+  "source": {
+    "git": "https://github.com/psmortal/PanDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PanDK": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "Alamofire": [
+      "~> 3.3.0"
+    ],
+    "SwiftyJSON": [
+      "~> 2.3.2"
+    ],
+    "MJRefresh": [
+      "~> 3.1.0"
+    ]
+  }
+}

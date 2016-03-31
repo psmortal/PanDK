@@ -1,0 +1,6 @@
+framework module Pods_PanDK_Tests {
+  umbrella header "Pods-PanDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

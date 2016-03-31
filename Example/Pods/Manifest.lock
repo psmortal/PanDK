@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (3.3.0)
+  - MJRefresh (3.1.0)
+  - PanDK (0.1.0):
+    - Alamofire (~> 3.3.0)
+    - MJRefresh (~> 3.1.0)
+    - SwiftyJSON (~> 2.3.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - PanDK (from `../`)
+
+EXTERNAL SOURCES:
+  PanDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: 9054db4a1b1ca9e363223183e01cea380159a27c
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  PanDK: 7b493b58f6c2af580b523daa9b05be85275e5bf0
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
