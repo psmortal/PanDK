@@ -8,7 +8,7 @@
 
 import SwiftyJSON
 import MJRefresh
-protocol Refreshable {
+public protocol Refreshable {
     var tableView:UITableView? {get set}
     //var dataJSON:JSON? {get set}
     func makeRefreshable()

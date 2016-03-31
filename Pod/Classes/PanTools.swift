@@ -7,11 +7,11 @@
 //
 
 
-let SCWIDTH = UIScreen.mainScreen().bounds.width
-let SCHEIGHT = UIScreen.mainScreen().bounds.height
+public let SCWIDTH = UIScreen.mainScreen().bounds.width
+public let SCHEIGHT = UIScreen.mainScreen().bounds.height
 
 //判断是否模拟器
-struct Platform {
+public struct Platform {
     static let isSimulator: Bool = {
         var isSim = false
         #if arch(i386) || arch(x86_64)

@@ -9,7 +9,7 @@
 import Alamofire
 
 
-protocol PanRemoteAPI {
+public protocol PanRemoteAPI {
     
     var method:Alamofire.Method {get set}
     var api:String {get set}
@@ -20,7 +20,7 @@ protocol PanRemoteAPI {
     func handleResult(res: Alamofire.Response<NSData,NSError>,cb:ResultCallBack)
 }
 
-typealias ResultCallBack = ()->Void
+public typealias ResultCallBack = ()->Void
 
 extension PanRemoteAPI {
     
